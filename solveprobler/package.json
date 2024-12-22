@@ -1,0 +1,32 @@
+{
+  "name": "solveprobler",
+  "version": "1.0.0",
+  "description": "A web app that leverages OpenAI API calls to act as a satirical and somewhat mean and direct therapist.",
+  "main": "src/index.tsx",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "next": "^12.3.4",
+    "openai": "^3.3.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "@types/react": "19.0.2",
+    "eslint": "^7.32.0",
+    "eslint-config-next": "^12.0.7",
+    "typescript": "^4.4.4"
+  },
+  "keywords": [
+    "OpenAI",
+    "therapist",
+    "web app"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
