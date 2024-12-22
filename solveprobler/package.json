@@ -7,7 +7,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "export": "next build && next export",
+    "deploy": "wrangler pages publish ."
   },
   "dependencies": {
     "next": "^12.3.4",

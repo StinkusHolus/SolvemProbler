@@ -1,0 +1,13 @@
+name = "solveprobler"
+type = "webpack"
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+
+[site]
+bucket = ".next/static"
+entry-point = "workers-site"
+
+[build]
+command = "npm run build"
